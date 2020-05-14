@@ -8,4 +8,4 @@ Some browsers I use include Firefox, Ecosia, and Brave.
 A markup language is a system that dictates the architecture of a page, and if often focused on the text content. One that is commonly used is one that we'll be learning about in this class, HTML.
 
 ### Screenshot
-![Assignment 03 Screenshot](.images/hwscreenshot-03.png)
+![Assignment 03 Screenshot](./images/hwscreenshot-03.png)

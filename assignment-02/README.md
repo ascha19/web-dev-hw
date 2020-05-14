@@ -14,3 +14,4 @@ https://www.deviantart.com/
 ### Responses.txt Link
 
 ### Homework Screenshot
+![Homework Screenshot](./images/hwscreenshot-02.png)

@@ -12,6 +12,6 @@ I decided to take this class because it's a requirement for my degree in Media A
 ### Frequently Used Site
 https://www.deviantart.com/
 ### Responses.txt Link
-
+[Responses](./responses.txt)
 ### Homework Screenshot
 ![Homework Screenshot](./images/hwscreenshot-02.png)

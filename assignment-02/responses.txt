@@ -1,0 +1,10 @@
+1. Briefly describe one way how data travels on the internet.
+    Data is sent from place to place via packets. These packets travel much in a way that one takes a car; which path the packet takes to get from Point A to Point B depends on how crowded the other paths are and how much traffic on them that there is. Sometimes there's too much information to fit in one packet, so the data is broken into multiple packets that travel to the same place, knowing form and to where they're going via the devices' individual IP addresses.
+2. What is the relationship between an IP address and the DNS?
+    The relationship between an IP address and a DNS is that every IP address is paired with paired with a domain name, such as www.facebook.com. The DNS is used to look up the domain name and find the corresponding IP address so whatever device being used can be connected to the internet and receive the information the user is looking for.
+3. What is a cookie?
+    Cookies are pieces of information, like an ID number or info card, that are used by sites to remember who you are. That is, if you were to refresh the page or want to go back to a site later, the sites knows it's you and can get the correct information.
+4. List the the three basic parts of a URL.
+  1. Protocol - Explains where your files live on the web, the "country" of the address
+  2. Domain - Unique space for your site and its information to reside alone, the "city, state"
+  3. Path - Instructions on how to get to the specific place or directory that you're looking for, the overall street directions

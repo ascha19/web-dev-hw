@@ -9,4 +9,4 @@
 3. Free Response: Summarize your work cycle for this assignment.
 Firstly, I created the main folder and README for this assignment, and then the index file.
 
-After that, I added all the necessary meta data for the <head> portion of my index.html page, as well as set up the headings for the <body> section to prepare to provide my recipe. From there, I added the ingredients, then instructions. At first, I'd just added these like I normally would have, but then edited them to fit with the guidelines of the assignment. 
+After that, I added all the necessary meta data for the <head> portion of my index.html page, as well as set up the headings for the <body> section to prepare to provide my recipe. From there, I added the ingredients, then instructions. At first, I'd just added these like I normally would have, but then edited them to fit with the guidelines of the assignment. I pretty much did the same for the rest of the page; I added the basic information first, then adjusted the formatting as needed. 

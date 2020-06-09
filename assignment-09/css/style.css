@@ -26,6 +26,17 @@ p {
   color: #33cccc;
 }
 
+figure {
+  float: center;
+  text-align: center;
+  color: #1e1e7b;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  margin: 0.5px;
+  padding: 0.5px;
+}
+
 section {
    /*width: 300px;*/
    background-color: white;

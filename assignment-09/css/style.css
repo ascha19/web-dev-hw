@@ -22,11 +22,15 @@ h1 {
   color: #a300cc;
 }
 
+p {
+  color: #33cccc;
+}
+
 section {
    /*width: 300px;*/
    background-color: white;
    border-radius: 40px;
-   padding: 20px;
+   padding: 30px;
    padding-bottom: 40px;
    margin: auto;
    margin-bottom: -170px;

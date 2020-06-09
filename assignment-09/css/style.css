@@ -31,7 +31,7 @@ p {
 }
 
 figure {
-  float: center;
+  position: center;
   text-align: center;
   color: #1e1e7b;
   font-style: italic;

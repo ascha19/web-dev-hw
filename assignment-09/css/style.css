@@ -1,0 +1,39 @@
+/* Let's get this 1:45 am breeeeaaaaaad! */
+
+body {
+  background-image: url("../images/solo-jazz-cup-wide.jpg");
+  background-color: white;
+  background-size: auto;
+  text-align: center;
+  padding: 20px 70px;
+}
+
+div {
+  background-color: #33cccc;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.font {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h1 {
+  color: #a300cc;
+}
+
+section {
+   /*width: 300px;*/
+   background-color: white;
+   border-radius: 40px;
+   padding: 20px;
+   padding-bottom: 40px;
+   margin: auto;
+   margin-bottom: -170px;
+}
+
+.border {
+  border-style: outset;
+  border-color: #a300cc;
+  border-width: thick;
+}

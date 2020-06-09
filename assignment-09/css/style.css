@@ -18,7 +18,7 @@ div {
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-h1 {
+h1, h2 {
   color: #a300cc;
 }
 
@@ -39,6 +39,10 @@ figure {
   text-indent: 0;
   margin: 0.5px;
   padding: 0.5px;
+}
+
+.transparency {
+  opacity: 50%;
 }
 
 section {

@@ -1,6 +1,43 @@
 body {
   background-color: gold;
-  background-image: url("../images/honeycomb.jpg");
+  background-image: url("../images/honey-drip-altered.jpg");
+  background-blend-mode: luminosity;
+  background-size: auto;
   background-position: center center;
   background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Poppins", sans-serif;
+}
+
+div {
+  font-family: "Anonymous Pro", Verdana, serif;
+}
+
+.honey {
+  width: 50%;
+  margin: auto;
+  background: lightyellow;
+  border-style: solid;
+  border-color: rgb(158, 130, 26);
+  border-width: thick;
+  border-radius: 15px;
+  padding: 15px;
+  font-size: 12px;
+  font-style: oblique;
+}
+
+.beeboy {
+  width: 65%;
+  margin: auto;
+  background: lightyellow;
+  border-style: solid;
+  border-color: rgb(158, 130, 26);
+  border-width: thick;
+  border-radius: 15px;
+  padding: 15px;
+  font-size: 12px;
 }

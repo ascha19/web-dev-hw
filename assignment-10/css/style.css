@@ -9,11 +9,26 @@ body {
   text-align: center;
 }
 
-h1, h2, h3, h4 {
-  font-family: "Poppins", sans-serif;
+@font-face {
+  font-family: 'Poppins';
+  src: url("../fonts/Poppins-Regular") format('opentype');
+  font-weight: normal;
+  font-style: normal;
 }
 
-div {
+@font-face {
+  font-family: 'Anonymous Pro';
+  src: url('../fonts/AnonymousPro-Regular') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Poppins", sans-serif;
+  color: rgb(77, 74, 7);
+}
+
+p {
   font-family: "Anonymous Pro", Verdana, serif;
 }
 

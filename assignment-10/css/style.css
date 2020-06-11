@@ -1,3 +1,6 @@
 body {
   background-color: gold;
+  background-image: url("../images/honeycomb.jpg");
+  background-position: center center;
+  background-attachment: fixed;
 }

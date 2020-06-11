@@ -28,16 +28,53 @@ div {
   padding: 15px;
   font-size: 12px;
   font-style: oblique;
+  color: rgb(153, 137, 27);
 }
 
 .beeboy {
   width: 65%;
   margin: auto;
-  background: lightyellow;
+  background: rgb(254, 244, 183);
   border-style: solid;
-  border-color: rgb(158, 130, 26);
+  border-color: rgb(112, 94, 26);
   border-width: thick;
   border-radius: 15px;
   padding: 15px;
   font-size: 12px;
+}
+
+.yellowleft {
+  text-align: left;
+  color: rgb(205, 183, 14);
+  padding-left: 20px;
+}
+
+.blackright {
+  text-align: right;
+  color: black;
+  padding-right: 20px;
+}
+
+.blackcenter {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.yellowright {
+  text-align: right;
+  color: rgb(205, 183, 14);
+  padding-right: 20px;
+}
+
+.blackleft {
+  text-align: left;
+  color: black;
+  padding-left: 20px;
+}
+
+.shakinitup {
+  text-align: left;
+  color: black;
 }

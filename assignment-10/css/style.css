@@ -17,6 +17,13 @@ body {
 }
 
 @font-face {
+  font-family: 'Poppins BoldItalic';
+  src: url('../fonts/Poppins-BoldItalic') format('opentype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
   font-family: 'Anonymous Pro';
   src: url('../fonts/AnonymousPro-Regular') format('opentype');
   font-weight: normal;
@@ -60,6 +67,11 @@ a:hover {
   font-size: 12px;
   font-style: oblique;
   color: rgb(153, 137, 27);
+}
+
+.honey p::first-letter {
+  font-family: 'Poppins BoldItalic', serif;
+  font-size: 2em;
 }
 
 .beeboy {

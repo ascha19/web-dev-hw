@@ -54,6 +54,7 @@ body {
   background-color: none;
   width: 50%;
   position: absolute;
+  float: left;
   top: 200px;
   left: 0;
   border: thick;
@@ -64,6 +65,18 @@ body {
   opacity: 75%;
 }
 
-.page-content-01 {
-
+.filler-text {
+  background-color: white;
+  background-blend-mode: luminosity;
+  width: 45%;
+  font-family: "Champagne Limousines",sans-serif;
+  font-size: 1.5em;
+  color: rgb(52, 47, 37);
+  text-align: left;
+  position: absolute;
+  float: right;
+  top: 200px;
+  right: 0;
+  border-color: rgb(52, 47, 37);
+  border-width: thin;
 }

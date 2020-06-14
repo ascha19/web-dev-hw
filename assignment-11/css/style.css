@@ -50,6 +50,24 @@ body {
   color: rgb(52, 47, 37);
 }
 
+.menu-items {
+  margin: auto;
+  background-color: rgb(218, 185, 84);
+  font-family: "Champagne Limousines", sans-serif;
+  text-align: center;
+  padding: 2px;
+}
+
+.menu-items-placement {
+  position: absolute;
+  top: 168px;
+  left: 650px;
+}
+
+.display-inline-block {
+  display: inline-block;
+}
+
 .image-box {
   background-color: none;
   width: 50%;

@@ -30,7 +30,7 @@ body {
   margin: none;
   overflow: auto;
   text-align: center;
-  font-size: 80px;
+  font-size: 85px;
   color: rgb(52, 47, 37);
 }
 
@@ -51,8 +51,17 @@ body {
 }
 
 .image-box {
+  background-color: none;
+  width: 50%;
+  position: absolute;
+  top: 200px;
+  left: 0;
+  border: thick;
+  border-color: white;
+}
 
-
+.cocoa-opacity {
+  opacity: 75%;
 }
 
 .page-content-01 {

@@ -54,11 +54,15 @@ body {
   background-color: none;
   width: 50%;
   position: absolute;
-  float: left;
+  /*float: left;*/
   top: 200px;
   left: 0;
   border: thick;
   border-color: white;
+}
+
+.float .image-box {
+  float: left;
 }
 
 .cocoa-opacity {
@@ -68,15 +72,15 @@ body {
 .filler-text {
   background-color: white;
   background-blend-mode: luminosity;
-  width: 45%;
+  width: 44%;
   font-family: "Champagne Limousines",sans-serif;
   font-size: 1.5em;
   color: rgb(52, 47, 37);
   text-align: left;
   position: absolute;
-  float: right;
   top: 200px;
   right: 0;
   border-color: rgb(52, 47, 37);
   border-width: thin;
+  padding-left: 10px;
 }

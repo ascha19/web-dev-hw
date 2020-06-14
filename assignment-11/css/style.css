@@ -1,7 +1,60 @@
-.my-box {
-  width: ;
-  height: ;
-  border: ;
-  padding: ;
-  margin: ;
+body {
+  background-color: rgb(255, 248, 235);
+}
+
+@font-face {
+  font-family: 'Coffee With Sugar';
+  src: url("../fonts/CoffeewithSugar.ttf") format('opentype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Champagne Limousines';
+  src: url("../fonts/Champagne&Limousines.ttf") format('opentype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+.title-box {
+  background-color: rgb(136, 119, 87);
+  font-family: "Coffee With Sugar", serif;
+  width: 90%;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-bottom-width: medium;
+  border-bottom-color: rgb(52, 47, 37);
+  padding: 50px 100px;
+  margin: none;
+  overflow: auto;
+  text-align: center;
+  font-size: 80px;
+  color: rgb(52, 47, 37);
+}
+
+.icon-box {
+  background-color: none;
+  font-family: "Champagne Limousines",sans-serif;
+  width: 15%;
+  height: 180px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: none;
+  padding: 10px;
+  margin: none;
+  overflow: auto;
+  text-align: center;
+  color: rgb(52, 47, 37);
+}
+
+.image-box {
+
+
+}
+
+.page-content-01 {
+
 }

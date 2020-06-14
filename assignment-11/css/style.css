@@ -24,8 +24,6 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  border-bottom-width: medium;
-  border-bottom-color: rgb(52, 47, 37);
   padding: 50px 100px;
   margin: none;
   overflow: auto;
@@ -55,6 +53,7 @@ body {
   background-color: rgb(218, 185, 84);
   font-family: "Champagne Limousines", sans-serif;
   text-align: center;
+  font-size: 1.2em;
   padding: 2px;
 }
 
@@ -75,7 +74,8 @@ body {
   /*float: left;*/
   top: 200px;
   left: 0;
-  border: thick;
+  border: solid;
+  border-width: thick;
   border-color: white;
 }
 
@@ -98,8 +98,6 @@ body {
   position: absolute;
   top: 200px;
   right: 0;
-  border-color: rgb(52, 47, 37);
-  border-width: thin;
   padding-left: 10px;
 }
 
@@ -113,4 +111,9 @@ body {
   position: absolute;
   top: 650px;
   right: 0;
+}
+
+a:hover {
+  color: white;
+  font-style: italic;
 }

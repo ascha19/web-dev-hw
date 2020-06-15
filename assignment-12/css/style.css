@@ -3,22 +3,29 @@ body {
 }
 
 @font-face {
-  font-family: 'Coffee With Sugar';
-  src: url("../fonts/CoffeewithSugar.ttf") format('opentype');
+  font-family: 'DK Douceur';
+  src: url("../fonts/DK-Douceur.ttf") format('opentype');
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
-  font-family: 'Champagne Limousines';
-  src: url("../fonts/Champagne&Limousines.ttf") format('opentype');
+  font-family: 'Bellrose';
+  src: url("../fonts/Bellrose.ttf") format('opentype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Gin and Soda';
+  src: url("../fonts/GIN_AND_SODA_PERSONAL_USE.ttf") format('opentype');
   font-style: normal;
   font-weight: normal;
 }
 
 .title-box {
   background-color: rgb(136, 119, 87);
-  font-family: "Coffee With Sugar", serif;
+  font-family: "Gin and Soda", serif;
   width: 90%;
   height: 100px;
   position: absolute;
@@ -34,7 +41,7 @@ body {
 
 .icon-box {
   background-color: none;
-  font-family: "Champagne Limousines",sans-serif;
+  font-family: "Bellrose",sans-serif;
   width: 15%;
   height: 180px;
   position: absolute;
@@ -51,7 +58,7 @@ body {
 .menu-items {
   margin: auto;
   background-color: rgb(218, 185, 84);
-  font-family: "Champagne Limousines", sans-serif;
+  font-family: "Bellrose", sans-serif;
   text-align: center;
   font-size: 1.2em;
   padding: 2px;
@@ -71,7 +78,6 @@ body {
   background-color: none;
   width: 50%;
   position: absolute;
-  /*float: left;*/
   top: 200px;
   left: 0;
   border: solid;
@@ -91,7 +97,7 @@ body {
   background-color: white;
   background-blend-mode: luminosity;
   width: 44%;
-  font-family: "Champagne Limousines", sans-serif;
+  font-family: "Bellrose", sans-serif;
   font-size: 1.5em;
   color: rgb(52, 47, 37);
   text-align: left;
@@ -104,7 +110,7 @@ body {
 .product-tab {
   background-color: rgb(136, 119, 87);
   width: 44%;
-  font-family: "Coffee With Sugar", sans-serif;
+  font-family: "Gin and Soda", sans-serif;
   font-size: 35px;
   color: rgb(52, 47, 37);
   text-align: center;

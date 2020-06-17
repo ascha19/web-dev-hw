@@ -171,6 +171,78 @@ h1, h2, h3, h4 {
   border-color: white;
 }
 
+.products {
+  position: absolute;
+  top: 200px;
+  width: 96%;
+  font-family: "Bellerose",serif;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(52, 47, 37);
+}
+
+.gallery {
+  margin: 10px;
+  border: thin;
+  border-color: rgb(52, 47, 37);
+  float: left;
+  width: 200px;
+}
+
+.gallery .img {
+  width: 200px;
+  height: auto;
+}
+
+.gallery:hover {
+  border: medium;
+}
+
+.description {
+  padding: 10px;
+  text-align: center;
+}
+
+.booking {
+  position: absolute;
+  top: 200px;
+  width: 50%;
+  left: 0;
+  font-family: 'Bellerose', sans-serif;
+  color: rgb(52, 47, 37);
+  text-align: left;
+}
+
+.booking-header {
+  position: absolute;
+  top: 200px;
+  width: 50%;
+  left: 0;
+  font-family: 'Bellerose', sans-serif;
+  color: rgb(52, 47, 37);
+  text-align: center;
+}
+
+.help {
+  position: absolute;
+  top: 200px;
+  width: 50%;
+  right: 0;
+  font-family: 'Bellerose', sans-serif;
+  color: rgb(52, 47, 37);
+  text-align: left;
+}
+
+.help-header {
+  position: absolute;
+  top: 200px;
+  width: 50%;
+  right: 0;
+  font-family: 'Bellerose', sans-serif;
+  color: rgb(52, 47, 37);
+  text-align: center;
+}
+
 a:link {
   color: rgb(52, 47, 37);
   text-decoration: none;

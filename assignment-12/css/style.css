@@ -32,6 +32,12 @@ p {
   top: -25px;
 }
 
+h1, h2, h3, h4 {
+  font-family: "Gin and Soda", sans-serif;
+  color: rgb(52, 47, 37);
+  font-weight: bold;
+}
+
 .title-box-dark {
   background-color: rgb(136, 119, 87);
   font-family: "Gin and Soda", serif;
@@ -48,25 +54,9 @@ p {
   color: rgb(52, 47, 37);
 }
 
-.title-box-light {
-  background-color: rgb(245, 227, 167);
-  font-family: "Gin and Soda", serif;
-  width: 86.8%;
-  height: 100px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 50px 100px;
-  margin: none;
-  overflow: auto;
-  text-align: center;
-  font-size: 85px;
-  color: rgb(52, 47, 37);
-}
-
 .icon-box {
   background-color: none;
-  font-family: "Bellerose",sans-serif;
+  font-family: "Bellerose", serif;
   width: 15%;
   height: 180px;
   position: absolute;
@@ -136,7 +126,7 @@ p {
   background-color: ;
   background-blend-mode: luminosity;
   width: 44%;
-  font-family: "Bellerose", sans-serif;
+  font-family: "Bellerose", serif;
   font-size: 1.5em;
   color: rgb(52, 47, 37);
   text-align: left;
@@ -164,6 +154,21 @@ p {
   right: 0;
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+.about-us {
+  position: absolute;
+  top: 200px;
+  width: 96%;
+  font-family: "Bellerose",serif;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(52, 47, 37);
+  margin: 10px;
+  padding: 10px;
+  border: solid;
+  border-width: thick;
+  border-color: white;
 }
 
 a:link {

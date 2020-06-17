@@ -205,9 +205,10 @@ h1, h2, h3, h4 {
 
 .booking {
   position: absolute;
-  top: 200px;
+  top: 300px;
   width: 50%;
   left: 0;
+  padding: 10px;
   font-family: 'Bellerose', sans-serif;
   color: rgb(52, 47, 37);
   text-align: left;
@@ -225,9 +226,10 @@ h1, h2, h3, h4 {
 
 .help {
   position: absolute;
-  top: 200px;
+  top: 300px;
   width: 50%;
   right: 0;
+  padding: 10px;
   font-family: 'Bellerose', sans-serif;
   color: rgb(52, 47, 37);
   text-align: left;

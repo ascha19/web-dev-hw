@@ -4,7 +4,7 @@ body {
 
 @font-face {
   font-family: 'DK Douceur';
-  src: url("../fonts/DK-Douceur.ttf") format('opentype');
+  src: url("../fonts/DK-Douceur.otf") format('opentype');
   font-style: normal;
   font-weight: normal;
 }
@@ -29,16 +29,27 @@ body {
 
 p {
   position: relative;
-  top: -30px;
+  top: -25px;
 }
 
-.p {
-  position: relative;
-  top: -30px;
-}
-
-.title-box {
+.title-box-dark {
   background-color: rgb(136, 119, 87);
+  font-family: "Gin and Soda", serif;
+  width: 86.8%;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 50px 100px;
+  margin: none;
+  overflow: auto;
+  text-align: center;
+  font-size: 85px;
+  color: rgb(52, 47, 37);
+}
+
+.title-box-light {
+  background-color: rgb(245, 227, 167);
   font-family: "Gin and Soda", serif;
   width: 86.8%;
   height: 100px;
@@ -69,25 +80,6 @@ p {
   color: rgb(52, 47, 37);
 }
 
-.menu-items {
-  margin: auto;
-  background-color: rgb(218, 185, 84);
-  font-family: "Gin and Soda", sans-serif;
-  text-align: center;
-  font-size: 1.2em;
-  padding: 5px;
-}
-
-.menu-items-placement {
-  position: absolute;
-  top: 168px;
-  left: 650px;
-}
-
-.display-inline {
-  display: inline;
-}
-
 .image-box {
   background-color: none;
   width: 55%;
@@ -107,6 +99,39 @@ p {
   opacity: 75%;
 }
 
+.menu-items {
+  margin: auto;
+  background-color: rgb(218, 185, 84);
+  font-family: "Gin and Soda", sans-serif;
+  text-align: center;
+  font-size: 1.2em;
+  padding: 5px;
+}
+
+.menu-items-placement {
+  position: absolute;
+  top: 158px;
+  left: 550px;
+}
+
+.display-inline {
+  display: inline;
+}
+
+.drop-down {
+  display: none;
+  background-color: rgb(52, 47, 37);
+  font-family: "Gin and Soda", sans-serif;
+  color: rgb(218, 185, 84);
+  text-align: center;
+  font-size: 1.2em;
+  padding: 5px
+}
+
+.menu-items-placement:hover .drop-down {
+  display: block;
+}
+
 .filler-text {
   background-color: ;
   background-blend-mode: luminosity;
@@ -119,6 +144,12 @@ p {
   top: 200px;
   right: 0;
   padding-left: 10px;
+}
+
+.filler-text p:first-letter {
+  font-family: 'DK Douceur', sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
 }
 
 .product-tab {
@@ -135,7 +166,17 @@ p {
   padding-bottom: 5px;
 }
 
+a:link {
+  color: rgb(52, 47, 37);
+  text-decoration: none;
+}
+
 a:hover {
-  color: white;
+  color: rgb(255, 248, 235);
   font-style: italic;
+}
+
+a:visited {
+  color: rgb(255, 248, 235);
+  text-decoration: line-through;
 }

@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'GillSans Bold';
+  src: url("../fonts/GillSansBold.ttf") format('opentype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Avengers';
+  src: url("../fonts/AVENGEANCE-HEROIC-AVENGER.ttf") format('opentype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Avengers Bold';
+  src: url("../fonts/AVENGEANCE-HEROIC-AVENGER-BD.ttf") format('opentype');
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Avengers Italic';
+  src: url("../fonts/AVENGEANCE-HEROIC-AVENGER-AT.ttf") format('opentype');
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Avengers BoldItalic';
+  src: url("../fonts/AVENGEANCE-HEROIC-AVENGER-BI.ttf") format('opentype');
+  font-style: italic;
+  font-weight: bold;
+}

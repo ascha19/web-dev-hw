@@ -1,3 +1,86 @@
 body {
-  background-color: rgb(0, 51, 51);
+  background-color: rgb(71, 134, 165);
+}
+
+/* Header */
+.header-box {
+  background-color: rgba(35, 48, 67, 1);
+  font-family: 'GillSans Bold', sans-serif;
+  width: 93.5%;
+  height: 150px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+  color: rgba(205, 208, 214, 1);
+}
+
+
+/* Header logo */
+.logo-box {
+  width: 900px;
+  height: 150px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 5px;
+}
+
+.logo-width {
+  width: 900px;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+  font-family: 'GillSans Bold', 'Avenir Medium', sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+  color: rgba(216, 106, 86, 1);
+  width: 100;
+  height: 150px;
+  padding: 15px;
+}
+
+.dropdown-menu-placement {
+  position: absolute;
+  top: 0;
+  left: 950px;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: rgba(35, 48, 67, 1);
+  font-family: 'Avenir Skinny', 'GillSans Bold', sans-serif;
+  font-size: 1em;
+  text-align: center;
+  color: rgba(205, 208, 214, 1);
+  margin: 5px;
+  padding: 5px;
+}
+
+.dropdown-menu-placement:hover .dropdown-content {
+  display: block;
+}
+
+a:link {
+  color: rgba(205, 208, 214, 1);
+  text-decoration: none;
+}
+
+a:hover {
+  font-style: oblique;
+}
+
+a:visited {
+  color: rgba(216, 106, 86, 1);
+  text-decoration: none;
+}
+
+a:active {
+  color: rgba(216, 106, 86, 1);
+  text-decoration: underline;
 }

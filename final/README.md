@@ -8,15 +8,15 @@ rgb(71, 134, 165);
 rgb(166, 200, 216);
 white: rgba(255, 255, 255, 1);
 
-Did you learn anything new about web development (ie using GitHub, version control, repositories)?
+1. Did you learn anything new about web development (ie using GitHub, version control, repositories)?
 
 A lot of the stuff we learned about regarding web development I had some idea about already. However, this class focused a lot more on HTML than the other class I took did, so I learned quite a bit more about HTML than I had known previously.
 
-Did you learn anything new about web design (ie using media, color, fonts)?
+1. Did you learn anything new about web design (ie using media, color, fonts)?
 
 I learned a lot of new stuff about web design, both from the class itself and from stuff I looked up on my own. Most of what I knew previously revolved around color and background styling, so there was a lot to learn. A few things that I learned that really stuck out were inputs and forms, iframes (especially learning how to embed maps), and typography.
 
-Free Response: Summarize your work cycle for this assignment.
+3. Free Response: Summarize your work cycle for this assignment.
 
 My work cycle for this assignment was kind of chaotic, since I've been in the midst of finals. I knew since I learned how to connect multiple pages that I wanted to do a Stark Industries site, and it's a project that I will probably continue with even after I'm finished with this class. It was pretty easy for me to come up with content for the index, about, and contact pages, but I had a hard time deciding on what to make the fourth page about. Eventually, I decided to make it a news page; however, I'd already created the page and some styling for it with the placeholder name of services, so I didn't change those.
 
@@ -26,4 +26,4 @@ I wrote an abridged history of Stark Industries myself, including some personal 
 
 From the About Page, I moved onto the Contact page. I had a very simple but aesthetically pleasing idea for this page, so it was pretty easy to create. I briefly forgot the form element and was confused as to why the inputs weren't working, but I eventually figured it out. I really like the background image I chose for this page as well.
 
-Finally, I worked on the now-news page. I decided to create three thumbnail articles for various events happening in the Marvel Cinematic Universe, and even looked up known reporters and dates of events within the timeline. I wanted the thumbnails to be faux-clickable, so I added a hover that changed some of the styling to show it. I also added a map of a fake address for Stark Tower in Manhattan, which is where it is located in the universe. 
+Finally, I worked on the now-news page. I decided to create three thumbnail articles for various events happening in the Marvel Cinematic Universe, and even looked up known reporters and dates of events within the timeline. I wanted the thumbnails to be faux-clickable, so I added a hover that changed some of the styling to show it. I also added a map of a fake address for Stark Tower in Manhattan, which is where it is located in the universe.

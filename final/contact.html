@@ -12,7 +12,31 @@
   <link rel="stylesheet" href="./css/fonts.css">
 </head>
 
-<body>
+<body class="contact">
+  <div class="contact-box">
+    <form>
+      <p>
+        Tell Us Your Name:
+        <input type="text" name="name" id="name-input" class="contact-name" placeholder="First and last name"/>
+      </p>
+      <p>
+        Enter Your Email:
+        <input type="text" name="email" id="email-input" class="contact-email" placeholder="Ex. example@email.com"/>
+      </p>
+      <p>
+        Enter Phone Number:
+        <input type="text" name="phone" id="phone-input" class="contact-phone" placeholder="Ex. +1 800 0000"/>
+      </p>
+      <p>
+        <p>Your Message:</p>
+        <textarea name="comments" id="textarea" class="contact-message" cols="20" rows="7">Enter up to 600 characters.</textarea>
+      </p>
+      <p>
+        <input type="submit" name="submit" class="button-placement" value="Submit" />
+      </p>
+    </form>
+  </div>
+
   <div id="site-header" class="sticky">
     <div class="header-box">
     </div>

@@ -1,5 +1,19 @@
+/*Body & page background*/
 body {
   background-color: rgb(71, 134, 165);
+}
+
+.contact {
+
+}
+
+.about {
+  background-image: url("../images/blue-hexagons.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 93.5%;
+  height: auto;
 }
 
 /* Header */
@@ -128,3 +142,39 @@ a:active {
 }
 
 /* Main page main image */
+.main-page-image {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  width: 100%;
+  height: 600px;
+}
+
+#show-background {
+  background-image: url("../images/stark-industries-building-03.jpg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#show-background-02 {
+  background-image: linear-gradient(to bottom, rgba(35, 48, 67, 1), rgba(216, 106, 86, 1));
+  opacity: 50%;
+  background-size: cover;
+}
+
+.change {
+  position: absolute;
+  top: 550px;
+  left: 0;
+  font-family: 'GillSans Bold', 'Avenir Medium', sans-serif;
+  font-weight: bold;
+  font-size: 5em;
+  color: rgba(205, 208, 214, 1);
+
+}
+
+/* About sections & images */
+.founding {
+
+}

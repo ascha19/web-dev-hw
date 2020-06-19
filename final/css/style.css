@@ -1,7 +1,3 @@
-/*html {
-  overflow: scroll;
-}*/
-
 /*Body & page background*/
 body {
   background-color: rgb(71, 134, 165);
@@ -170,7 +166,7 @@ a:active {
 }
 
 #show-background-02 {
-  background-image: linear-gradient(to bottom, rgba(35, 48, 67, 1), rgba(216, 106, 86, 1));
+  background-image: linear-gradient(to bottom, rgba(216, 106, 86, 1), rgba(35, 48, 67, 1));
   opacity: 50%;
   background-size: cover;
 }
@@ -239,6 +235,21 @@ a:active {
   background-color: white;
   position: absolute;
   top: 1020px;
+  left: 50px;
+  right: 50px;
+  margin: 15px;
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+  font-family: 'Avenir Skinny', 'GillSans Bold', sans-serif;
+  text-align: center;
+  color: rgb(71, 134, 165);
+}
+
+.gallery-position-02 {
+  background-color: white;
+  position: absolute;
+  top: 1420px;
   left: 50px;
   right: 50px;
   margin: 15px;

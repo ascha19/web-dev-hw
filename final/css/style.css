@@ -19,6 +19,12 @@ body {
   color: rgba(205, 208, 214, 1);
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
 
 /* Header logo */
 .logo-box {
@@ -120,3 +126,5 @@ a:active {
   color: rgb(166, 200, 216);
   font-size: 1.5em;
 }
+
+/* Main page main image */

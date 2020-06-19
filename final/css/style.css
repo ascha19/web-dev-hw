@@ -18,6 +18,10 @@ body {
   background-position: center;
 }
 
+.services {
+  background-image: url("../images/blue-lines.jpg");
+}
+
 h1, h2, h3, h4, h5 {
   font-family: 'GillSans Bold', sans-serif;
   font-weight: bold;
@@ -182,7 +186,7 @@ a:active {
 
 }
 
-/* About sections & images */
+/* About sections */
 .overflow {
   overflow: scroll;
 }
@@ -231,6 +235,7 @@ a:active {
   color: rgb(71, 134, 165);
 }
 
+/* About Gallery */
 .gallery-position {
   background-color: white;
   position: absolute;
@@ -263,13 +268,15 @@ a:active {
 
 .gallery {
   margin: 5px;
-  border: 1px solid #ccc;
+  border: 1px solid;
+  border-color: rgb(237, 244, 247);
   float: left;
   width: 180px;
 }
 
 .gallery:hover {
-  border: 1px solid #777;
+  border: 1px solid;
+  border-color: rgba(205, 208, 214, 1);
 }
 
 .gallery img {
@@ -345,4 +352,59 @@ a:active {
   padding: 5px;
   font-family: 'Avenir Skinny', 'GillSans Bold', sans-serif;
   color: rgba(35, 48, 67, 1);
+}
+
+/*News articles */
+.article-position {
+  background-image: linear-gradient(to bottom, rgba(205, 208, 214, 1), rgb(166, 200, 216));
+  position: absolute;
+  top: 200px;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: solid;
+  border-width: thin;
+  border-color: white;
+  border-radius: 20px;
+  font-family: 'Avenir Skinny', 'GillSans Bold', sans-serif;
+  color: rgba(35, 48, 67, 1);
+}
+
+.article-move-01 {
+  position: absolute;
+  top: 420px;
+}
+
+.article-move-02 {
+  position: absolute;
+  top: 640px;
+}
+
+.article-meta {
+  font-size: 13px;
+  font-family: 'Avenir Skinny', 'GillSans Bold', sans-serif;
+  color: rgba(35, 48, 67, 1);
+}
+
+.header-color {
+  color: rgba(40, 88, 111, 1);
+}
+
+.article-position:hover {
+  background-image: none;
+  background-color: white;
+  border-width: medium;
+  border-style: inset;
+  cursor: pointer;
+}
+
+/*Stark Tower map*/
+.map {
+  position: absolute;
+  top: 275px;
+  right: 75px;
+  margin-left: auto;
+  margin-right: auto;
 }
